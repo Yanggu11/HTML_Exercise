@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    body{
+       margin: 0;}
+    .sub-header{
+      background-color: #b0b0b0;
+      height: 100px;}
+    .container{
+      width: 1128px;
+      margin: 0 auto;
+      }
+    .sub-header .logo{
+      width: 234px;
+      height: 100px;
+      float: left;
+      border: 1px solid red;
+       }
+    .sub-header .menu-list{
+      float: left;
+      height: 100px;
+       }
+    .sub-header .menu-list a{
+        display: inline-block;
+        padding: 0 10px;
+        color: #333;
+        font-size: 16px;
+
+        text-decoration: none;
+    }
+    .sub-header .menu-list a:hover{
+        color: #ff6700;
+    }
+    .sub-header .search{
+      height: 100px;
+      float: right;
+       }
+  </style>
+</head>
+<body>
+<div class="sub-header">
+  <div class="container">
+    <div class="logo">
+        <!--行内标签：默认设置高度和边距无效。-> 块级/行内+块级-->
+      <a href="https://ask.csdn.net/questions/1060834" style="margin-top: 22px;display: inline-block">
+          <img src="static/菲谢尔.jpg" style="height: 56px;width:56px" alt="">
+      </a>
+    </div>
+    <div class="menu-list" style="line-height: 100px">
+        <!--把内容撑起来 -->
+        <a href="https://ask.csdn.net/questions/1060834">小米手机</a>
+        <a href="https://ask.csdn.net/questions/1060834">红米手机</a>
+        <a href="https://ask.csdn.net/questions/1060834">黑米手机</a>
+        <a href="https://ask.csdn.net/questions/1060834">白米手机</a>
+        <a href="https://ask.csdn.net/questions/1060834">紫米手机</a>
+    </div>
+    <div class="search">1</div>
+    <div style="clear:both;"></div>
+  </div>
+</div>
+</body>
+</html>
